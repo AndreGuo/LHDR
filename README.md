@@ -1,14 +1,17 @@
 # LHDR_PyTorch
 The official PyTorch implementation of paper
 "***LHDR: HDR Reconstructionfor Legacy Content using a Lightweight DNN***"
-(paper link: [ArXiv](https://arxiv.org/abs/2211.11270), [CVF](TODO))
+([paper (ArXiv)](https://arxiv.org/abs/2211.11270),
+[paper](https://openaccess.thecvf.com/content/ACCV2022/papers/Guo_LHDR_HDR_Reconstruction_for_Legacy_Content_using_a_Lightweight_DNN_ACCV_2022_paper.pdf),
+[supplementary material](https://openaccess.thecvf.com/content/ACCV2022/supplemental/Guo_LHDR_HDR_Reconstruction_ACCV_2022_supplemental.pdf))
 in ACCV2022.
     
     @inproceedings{guo2022lhdr,
       title={LHDR: HDR Reconstructionfor Legacy Content using a Lightweight DNN}, 
       author={Guo, Cheng and Jiang Xiuhua},
       booktitle={Proceedings of the 16th Asian Conference on Computer Vision},
-      year={2022}
+      year={2022},
+      pages={3155-3171}
     }
 
 ---
