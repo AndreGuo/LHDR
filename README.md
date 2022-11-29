@@ -1,6 +1,6 @@
 # LHDR_PyTorch
 The official PyTorch implementation of paper
-"***LHDR: HDR Reconstructionfor Legacy Content using a Lightweight DNN***"
+"***LHDR: HDR Reconstruction for Legacy Content using a Lightweight DNN***"
 ([paper (ArXiv)](https://arxiv.org/abs/2211.11270),
 [paper](https://openaccess.thecvf.com/content/ACCV2022/papers/Guo_LHDR_HDR_Reconstruction_for_Legacy_Content_using_a_Lightweight_DNN_ACCV_2022_paper.pdf),
 [supplementary material](https://openaccess.thecvf.com/content/ACCV2022/supplemental/Guo_LHDR_HDR_Reconstruction_ACCV_2022_supplemental.pdf))
