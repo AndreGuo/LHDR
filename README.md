@@ -85,8 +85,8 @@ and change the dataloader *etc.*, remember to:
 - Normalize input SDR (*img*) by dividing 255.0.
 Note that the input to network is a tuple [*img*,*s_cond*,*c_cond*],
 see ```line145``` in ```test.py``` for detail.
-- Transfer the normalized label HDR by to non-linear domain
-by 0.45 exponent (our pre-processing).
+- Transfer the normalized label HDR to non-linear domain
+by 0.45 exponent (as our pre-processing specified in paper).
 - Change channel order BGR (if so) to RGB.
 
 ## Contact
