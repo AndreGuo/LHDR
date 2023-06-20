@@ -139,10 +139,11 @@ for ldr_file in opt.ldr:
         s_cond_prior_t = s_cond_prior_t.half()
         c_cond_prior_t = c_cond_prior_t.half()
 
-    x = (ldr_input_t, s_cond_prior_t, c_cond_prior_t)
-    prediction = net(x)
-    prediction = prediction.detach()[0].float().cpu()
-    prediction = torch2np(prediction)
+    with torch.no_grad():
+        x = (ldr_input_t, s_cond_prior_t, c_cond_prior_t)
+        prediction = net(x)
+        prediction = prediction.detach()[0].float().cpu()
+        prediction = torch2np(prediction)
 
     prediction = prediction / prediction.max()
 
